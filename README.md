@@ -46,10 +46,10 @@ To detect phone usage in a saved video file:
 
 ```bash
 cd scripts
-python detect_from_video.py --input path/to/your/video.mp4
+python detect_from_video.py 
 ```
 
-*Replace `path/to/your/video.mp4` with the actual path to your video file.*
+*Replace `video_file_path` with the actual path to your video file.*
 
 ## 📌 What It Does
 
