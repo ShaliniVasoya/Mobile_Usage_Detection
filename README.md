@@ -5,21 +5,20 @@ This project uses YOLOv3 and MediaPipe to detect when a person is using a mobile
 
 ---
 
-## 📂 Project Structure
-
-project-root/
-├── yolov3/
-│ ├── yolov3.cfg
-│ ├── yolov3.weights
-│ └── coco.names
-├── scripts/
-│ ├── detect_from_video.py
-│ └── detect_from_webcam.py
-├── README.md
-├──requirements.txt
-yaml
+# 📁 Project Structure
 Copy
 Edit
+project-root/
+├── yolov3/
+│   ├── yolov3.cfg
+│   ├── yolov3.weights
+│   ├── coco.names
+├── scripts/
+│   ├── detect_from_video.py
+│   ├── detect_from_webcam.py
+├── requirements.txt
+├── README.md
+
 
 ---
 
@@ -38,13 +37,13 @@ Place the following files in the `yolov3/` directory:
 1. Setup yolov3 model with this project and save model in yolov3 folder.
 2. Run the detection script:
 
-## ▶️ How to Run
-
-### 🔴 1. Webcam Mode
-
+▶️ How to Run
+🔴 1. Webcam Mode
 To detect phone usage from your webcam:
 
-```bash
+bash
+Copy
+Edit
 cd scripts
 python detect_from_webcam.py
 🎥 2. Video File Mode
@@ -54,10 +53,8 @@ bash
 Copy
 Edit
 cd scripts
-python detect_from_video.py --video path/to/your/video.mp4
-Replace path/to/your/video.mp4 with the actual path to your video file.
-
-
+python detect_from_video.py 
+📝 Replace path/to/your/video.mp4 with the actual path to your video file.
 
 📌 What It Does
 Detects mobile phones using YOLOv3.
